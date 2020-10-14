@@ -9,10 +9,10 @@ function Nav() {
 
   return (
     <nav>
-        <Link style={navStyle} to='/'>
-          <h3>Logo</h3>
-        </Link>
         <ul className="nav-links">
+            <Link style={navStyle} to='/Forum'>
+              <li>Forum</li>
+            </Link>
             <Link style={navStyle} to='/About'>
               <li>About</li>
             </Link>
@@ -21,9 +21,6 @@ function Nav() {
             </Link>
             <Link style={navStyle} to='/Shop'>
               <li>Shop</li>
-            </Link>
-            <Link style={navStyle} to='/Forum'>
-              <li>Forum</li>
             </Link>
         </ul>
     </nav>

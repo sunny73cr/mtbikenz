@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -9,9 +11,11 @@ nav {
   min-height: 10vh;
   background: rgb(73, 79, 82);
   color: white;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
-.contact {
+.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
