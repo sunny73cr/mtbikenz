@@ -6,7 +6,7 @@ Open MySQL Workbench.
 Open the CreateDB.sql file found in /MS3-Code
 Run the query.
 
-			///	N O T E ///
+///N O T E ///
 
 You may need to edit the SQL Connection details found in /MS3-Code/api/dataservice/dataservice.js
 Change the "user" and "password" details within the three functions that connect to the SQL Database.
@@ -15,7 +15,7 @@ which sections you are required to edit.
 
 You must edit this section to include the authentication details for your MySQL Server.
 
-		  /// E N D N O T E ///
+/// E N D N O T E ///
 			
 Open the 'MS3-Code' folder in Visual Studio Code.
 
